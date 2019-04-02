@@ -3,12 +3,21 @@ development:
   encoding: unicode
   database: dev
   pool: 5
-  host: localhost
+  # host: localhost
   port: 5432
+  username: dan
+  password: superdan123
+  timeout: 10000
 
 production:
   adapter: postgresql
   encoding: unicode
   database: prod
   pool: 5
-  host: localhost
+  # host: localhost
+  # username: sinatra
+  # password: supersinatra123
+  username: dan
+  password: superdan123
+  timeout: 10000
+
